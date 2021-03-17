@@ -1,5 +1,5 @@
 # UI-practise
-Here iam going to practise below concepts
+Here iam going to practise 
 HTML
 CSS 
 BOOTSTRAP 
