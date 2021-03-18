@@ -1,5 +1,11 @@
-body{
-    background-image: url(../images/img_5terre.jpg);
+/* body{
+    background-image: url(../images/images.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+} */
+#main{
+    background-color:rgb(243, 243, 243);
+    margin:2% 20%;
+    padding:20px;
+    border-radius: 5px;
 }
