@@ -14,7 +14,7 @@
         hr{
             border:1px solid lightgrey;
         }
-        a{
+        a:not(#base){
             color:white;
             background-color:rgb(27, 141, 23);
             text-decoration: none;
@@ -22,13 +22,17 @@
             line-height:50px;
 
         }
+        #base{
+            text-decoration: none;
+            color:black;
+        }
     </style>
 </head>
 <body>
         <img style="float: left;" src="../ui.jpg" width="10%" height="10%" alt="ui" /> 
     <h1 style="color:rgb(20, 61, 139);">UI-PRACTISE</h1>
     <p>Here i am going to practise 
-        <b  title="h1..h6,p,hr,br,img,li,ul,ol,a,div">HTML</b><b  title="color,background-color,font-size,font-weight,padding,margin,Border,float,text-decoration,line-height"> CSS</b><b> BOOTSTRAP</b></p>
+        <b  title="h1..h6,p,hr,br,img,li,ul,ol,a,div"><a id="base" href="#ht">HTML</a></b><b  title="color,background-color,font-size,font-weight,padding,margin,Border,float,text-decoration,line-height"> CSS</b><b> BOOTSTRAP</b></p>
         <hr/>
        <br>
        <div style="border:1px solid lightgrey;width:25%;float:right;text-align: center">
@@ -52,9 +56,11 @@
                             <li>Break<em>(br)</em></li>
                             <li>lists<em>(ul-li,ol-li)</em>:-attributes:list-style</li>
                             <li>Hyperlinks<em>(a)</em>-attribute:href,target</li>
-                            <li>Block-level(div)</li>
+                            <li>Block-level<em>(div)</em></li>
+                            <li>inline-element<em>(span)</em></li>
                             <li>bold<em>(b)</em></li>
                             <li>table<em>(table,thead,th,tr,tbody,td)</em></li>
+                            <li>bdo<em>(rtl,ltr)</em></li>
                         </ul>
                     </p>  
                     <h3>CSS</h3>
@@ -90,7 +96,7 @@
  
         <br/>
         <div style="border:1px solid lightgrey;width:24.5%;padding:5px">
-            <h2>HTML</h2>
+            <h2 id="ht">HTML</h2>
             <ul list-type="disc"><li>HTML stands for Hyper Text Markup Language</li>
             <li>  HTML is the standard markup language for creating Web pages</li>
                     <!-- <li>HTML elements tell the browser how to display the content</li>
