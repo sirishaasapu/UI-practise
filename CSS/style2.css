@@ -3,6 +3,11 @@
     background-repeat: no-repeat;
     background-size: 100%;
 } */
+.formName{
+    text-align: center;
+    text-decoration:underline;
+
+}
 #main{
     background-color:rgb(243, 243, 243);
     margin:2% 20%;
