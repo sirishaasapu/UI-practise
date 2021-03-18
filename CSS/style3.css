@@ -1,0 +1,20 @@
+body{
+    box-sizing: border-box;
+}
+nav{
+    background-color:rgb(9, 41, 9);
+    padding:20px 0 50px 10px;
+}
+a{
+    float:left;
+    font-size:25px;
+    font-weight:bold;
+    color:white;
+    margin-left:2%;
+    text-decoration: none;
+}
+header{
+    padding:0px 10px;
+    color:rgb(78, 78, 4);
+    font-family:'Courier New', Courier, monospace;
+}
