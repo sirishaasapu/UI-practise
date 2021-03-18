@@ -9,19 +9,21 @@
     padding:20px;
     border-radius: 5px;
 }
-input[type=text],select,input[type=number]{
+input[type=text],select,input[type=number],input[type=email],input[type=password]{
     width:100%;
     padding:15px 10px;
     margin:10px 0;
     display: inline-block;
     box-sizing: border-box;
     border-radius: 5px;
-    border:1px solid lightgray;
-    
+    border:1px solid lightgray;  
 }
 
 label{
     font-size:20px;
     
 }
-
+input[type=radio],input[type=checkbox]
+{
+    margin:10px 0;
+}
