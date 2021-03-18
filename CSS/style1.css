@@ -4,3 +4,19 @@ body{
 hr{
     border:1px solid lightgray;
 }
+table{
+    width:100%;
+    border:1px solid black;
+}
+tr{
+    background-color: rgb(237, 246, 237);
+   
+}
+td{
+    padding: 10px 2px;
+}
+th{
+    background-color:black;
+    color:white;
+    padding:10px;
+}
