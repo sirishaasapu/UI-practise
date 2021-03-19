@@ -41,3 +41,27 @@ input[type=button]{
     border-radius: 5px;
     border:1px solid lightgray;  
 }
+@media screen and (min-width:320px) and (max-width:480px){
+    h1{
+        font-size: 20px;
+    }
+    #main{
+        margin:2% 0%;
+        padding:10px;
+    }
+    input[type=button]{
+    float:none;
+    font-size:15px;
+    padding:5px;
+
+}
+input[type=radio],input[type=checkbox]{
+    margin:10px 15px;
+}
+}
+@media screen and (min-width:481px) and (max-width:900px){
+    body{
+        font-size:25px;
+    }
+}
+
