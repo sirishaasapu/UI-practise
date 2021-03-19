@@ -26,16 +26,29 @@
             text-decoration: none;
             color:black;
         }
+        .middle{
+            background-image:linear-gradient(to right,black,white);
+            color:white;
+        }
+        .right,.left1{
+            background-image: radial-gradient(white,black);
+            color:white;
+        }
+        /* .left2{
+            background-image: radial-gradient(green,white);
+        }  */
     </style>
 </head>
 <body>
+    <div class="start">
         <img style="float: left;" src="./images/ui.jpg" width="10%" height="10%" alt="ui" /> 
     <h1 style="color:rgb(20, 61, 139);">UI-PRACTISE</h1>
     <p>Here i am going to practise 
         <b  title="h1..h6,p,hr,br,img,li,ul,ol,a,div"><a id="base" href="#ht">HTML</a></b><b  title="color,background-color,font-size,font-weight,padding,margin,Border,float,text-decoration,line-height"> CSS</b><b> BOOTSTRAP</b></p>
+    </div>
         <hr/>
        <br>
-       <div style="border:1px solid lightgrey;width:25%;float:right;text-align: center">
+       <div class="right" style="border:1px solid lightgrey;width:25%;float:right;text-align: center">
             <h2>BOOTSTRAP</h2>
             <p></p>
             <ul style="list-style: none;font-size:20px;">
@@ -45,7 +58,7 @@
             </ul>
             </div>
                         
-            <div style="border:1px solid lightgray;padding:10px;width:45%;margin:0% 2%;float:right;">
+            <div class="middle" style="border:1px solid lightgray;padding:10px;width:45%;margin:0% 2%;float:right;">
                    <h3>HTML</h3>
                     <p>Some Basic Tags:  </p> 
                         <ul>
@@ -90,6 +103,7 @@
                         <li>background-attachment</li>
                         <li>background-size</li>
                         <li>Box-sizing</li>
+                        <li>opacity</li>
 
                     </ul>
                     <p>Css grid</p>
@@ -101,9 +115,14 @@
                         <li>grid-column-gap</li>
                         <li>grid-row-gap</li>
                     </ul>
+                    <p>Gradients</p>
+                    <ul>
+                        <li>linear-gradient</li>
+                        <li>radial-gradient</li>
+                    </ul>
                     </div>
                    
-       <div style="border:1px solid lightgrey;width:25%;text-align: center">
+       <div class="left1" style="border:1px solid lightgrey;width:25%;text-align: center">
         <h2>HTML+CSS</h2>
         <p></p>
         <ul style="list-style: none;font-size:20px;">
@@ -114,7 +133,7 @@
         </div>
  
         <br/>
-        <div style="border:1px solid lightgrey;width:24.5%;padding:5px">
+        <div class="left2" style="border:1px solid lightgrey;width:24.5%;padding:5px">
             <h2 id="ht">HTML</h2>
             <ul list-type="disc"><li>HTML stands for Hyper Text Markup Language</li>
             <li>  HTML is the standard markup language for creating Web pages</li>
