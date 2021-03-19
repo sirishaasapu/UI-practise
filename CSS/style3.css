@@ -18,3 +18,24 @@ header{
     color:rgb(78, 78, 4);
     font-family:'Courier New', Courier, monospace;
 }
+.row{
+    display:grid;
+    /* padding:20px;
+    content: "";
+   /* display:table;*/
+   margin-top:20px;
+    grid-row-gap:10px; 
+    grid-column-gap:10px; 
+    grid-template-columns: auto auto auto;
+    /* grid-template-rows: 500px 500px 500px; */
+    grid-template-rows: auto auto auto;
+    
+}
+.column{
+    /*float:left;*/
+    /*  width:20%;*/
+    /*margin:2% 2.5%;*/
+  
+    border:1px solid rgb(194, 190, 190);
+    padding:0 20px 20px 20px;
+}
