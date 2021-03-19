@@ -20,3 +20,16 @@ th{
     color:white;
     padding:10px;
 }
+/****Tablet view****/
+@media screen and (min-width:481px) and (max-width:900px){
+    img{
+        width:30%;
+    }
+}
+
+/*****Mobile View****/
+@media screen and (min-width:320px) and (max-width:480px){
+    img{
+        width:20%;
+    }
+}

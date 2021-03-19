@@ -46,8 +46,8 @@ input[type=button]{
         font-size: 20px;
     }
     #main{
-        margin:2% 0%;
-        padding:10px;
+        margin:2% 5%;
+        padding:20px;
     }
     input[type=button]{
     float:none;
@@ -60,8 +60,11 @@ input[type=radio],input[type=checkbox]{
 }
 }
 @media screen and (min-width:481px) and (max-width:900px){
-    body{
-        font-size:25px;
+   
+    #main{
+        margin:2% 5%;
+        font-size:40px;
+       
     }
 }
 
