@@ -27,7 +27,7 @@
             <ul class="nav bg-dark text-light p-2 font-weight-bold" style="font-size:15px;">
                 <li class="nav-item  ml-3">  <img src="../images/git.png" class="rounded-circle w-10 mr-3" width="50px" height="50px"/></li>
                 <li class="nav-item">
-                   <input type="text" class="form-control mt-1 bg-dark" placeholder="search jump to...."/>  
+                   <input type="text" class="form-control mt-1 bg-dark" placeholder="search or jump to...."/>  
                 </li>
                 <li class="nav-item "><a class="nav-link text-light" data-toggle="tab" href="#pullreq">pull requests</a></li>
                 <li class="nav-item "><a class="nav-link text-light" data-toggle="tab" href="#issue">Issues</a></li>
@@ -53,13 +53,17 @@
            
         </nav>
     </div>
-    <div class="mx-5 mt-4" style="font-size:20px" >
-        <i class="fa fa-bookmark-o" aria-hidden="true"></i>
-        <span class="ml-2 text-primary">sirishaasapu / UI-practise</span>
-        <span>
-            <button class="btn btn-light">Unwatch</button>
-            <button class="btn btn-light">Star</button>
-            <button class="btn btn-light">Fork</button>
+    <div class="mx-5 mt-4"  >
+        <i class="fa fa-bookmark-o" aria-hidden="true" style="font-size:20px"></i>
+        <span class="ml-2 text-primary" style="font-size:20px">sirishaasapu / UI-practise</span>
+        <span class="float-right">
+            <button class="btn btn-light border"><i class="fa fa-eye mr-2"  aria-hidden="true"></i>Unwatch
+                <span class="dropdown-toggle mx-2" ></span><span class="border-left"> 1</span>
+                <!-- <span style="border-left:1px solid lightgrey">0</span>-->
+     
+            </button>
+            <button class="btn btn-light"><i class="fa fa-star-o mr-2" aria-hidden="true"></i>Star<span class="border-left mx-2"> 0</span></button>
+            <button class="btn btn-light disabled"><i class="fa fa-code-fork mr-2" aria-hidden="true"></i>Fork</button>
         </span>
     </div>
     <div class="tab-content">
