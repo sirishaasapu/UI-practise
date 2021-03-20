@@ -49,7 +49,7 @@
                  
                 </li>
             </ul>
-        
+            
            
         </nav>
     </div>
@@ -85,11 +85,12 @@
     </div>
 </div>
     <div class="tab-content">
-     <div class="tab-pane container mt-3 active" id="pullreq">
+     <div class="tab-pane mt-3 active" row id="pullreq" style="margin:0 10%;">
+         <div class="col-8">
    <nav>
        <ul class="nav">
            <li class="nav-item dropdown">
-               <button class="btn btn-light border  nav-link" data-toggle="dropdown">
+               <button class="btn-sm btn-light border  nav-link" data-toggle="dropdown">
                    <i class="fa fa-code-fork mr-2" aria-hidden="true"></i>
                    main<span class="dropdown-toggle mx-2"  href="#" ></span>
                 
@@ -114,9 +115,28 @@
                         </div>
                     </button>
             </li>
+   
+            <li class="nav-item">
+               <a href="#" class="nav-link mx-1 text-dark"> <i class="fa fa-code-fork mr-2" aria-hidden="true"></i>1 branch</a>
+            </li>
+
+
+            <li class="nav-item">
+                    <a href="#" class="nav-link text-dark"><i class="fa fa-tag mr-2" aria-hidden="true"></i>0 tags</a>
+                 </li>
+          
+                 <li class="nav-item ml-auto">
+                     <ul class="nav">
+                         <li class="nav-item">
+                             <button class="btn btn-light border">Go to file</button>
+                             <button class="btn btn-light border">Add file <span class="dropdown-toggle mx-2"  href="#" ></span></button>
+                             <button class="btn btn-success border"><i class="fa fa-arrow-down" aria-hidden="true"></i> code <span class="dropdown-toggle mx-2"  href="#" ></span></button>
+                         </li>
+                     </ul>
+                 </li>
        </ul>
    </nav>
-     </div>
+</div>
      <div class="tab-pane container mt-5 fade " id="issue">Issues</div>
      <div class="tab-pane container mt-5 fade" id="marketplace">marketplace</div>
      <div class="tab-pane container mt-5 fade" id="explore">Explore</div>
