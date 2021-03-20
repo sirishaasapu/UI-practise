@@ -22,12 +22,12 @@
 <body>
     <div>
         <nav>
-            <ul class="nav bg-dark nav-tabs nav-justified text-light p-2 font-weight-bold" style="font-size:20px;">
-                <li class="nav-item  ml-3">  <img src="../images/git.png" class="rounded-circle mr-3" width="50px" height="50px"/></li>
-                <li class="nav-item "><a class="nav-link text-light" href="#">pull requests</a></li>
-                <li class="nav-item "><a class="nav-link text-light" href="#">Issues</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="#">marketplace</a></li>
-                <li class="nav-item"><a class="nav-link text-light" href="#">Explore</a></li>
+            <ul class="nav bg-dark text-light p-2 font-weight-bold" style="font-size:20px;">
+                <li class="nav-item  ml-3">  <img src="../images/git.png" class="rounded-circle w-10 mr-3" width="50px" height="50px"/></li>
+                <li class="nav-item "><a class="nav-link text-light" data-toggle="tab" href="#pullreq">pull requests</a></li>
+                <li class="nav-item "><a class="nav-link text-light" data-toggle="tab" href="#issue">Issues</a></li>
+                <li class="nav-item"><a class="nav-link text-light" data-toggle="tab" href="#marketplace">marketplace</a></li>
+                <li class="nav-item"><a class="nav-link text-light" data-toggle="tab" href="#explore">Explore</a></li>
                 <li class="nav-item dropdown dropleft ml-auto">
                     <a class="nav-link dropdown-toggle text-light" data-toggle="dropdown" href="#">+</a>
                     <div class="dropdown-menu ">
@@ -47,6 +47,12 @@
         
            
         </nav>
+    </div>
+    <div class="tab-content">
+     <div class="tab-pane container mt-5 active" id="pullreq">pull request</div>
+     <div class="tab-pane container mt-5 fade " id="issue">Issues</div>
+     <div class="tab-pane container mt-5 fade" id="marketplace">marketplace</div>
+     <div class="tab-pane container mt-5 fade" id="explore">Explore</div>
     </div>
 </body>
 </html>
