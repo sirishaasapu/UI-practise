@@ -85,7 +85,38 @@
     </div>
 </div>
     <div class="tab-content">
-     <div class="tab-pane container mt-5 active" id="pullreq">pull request</div>
+     <div class="tab-pane container mt-3 active" id="pullreq">
+   <nav>
+       <ul class="nav">
+           <li class="nav-item dropdown">
+               <button class="btn btn-light border  nav-link" data-toggle="dropdown">
+                   <i class="fa fa-code-fork mr-2" aria-hidden="true"></i>
+                   main<span class="dropdown-toggle mx-2"  href="#" ></span>
+                
+                <div class="dropdown-menu p-2" style="width:350%;">
+                        <div class="dropdown-header">Switch branches/tags</div>
+                        <div class="dropdown-divider"></div>
+                        <!-- <a href="#" class="dropdown-item">New repository</a> -->
+                        <input type="text" class="form-control" placeholder="find or create a branch">
+                        <div class="dropdown-divider"></div>
+                        <ul class="nav nav-tabs">
+                                <li class="nav-item">
+                                  <a class="nav-link active" href="#">Branches</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">Tags</a>
+                                </li>
+                               
+                              </ul>
+                        <!-- <a href="#" class="dropdown-item">Import repository</a>
+                        <a href="#" class="dropdown-item">New gist</a> -->
+                        <a href="#" class="dropdown-item text-primary d-flex justify-content-center">view all branches</a>
+                        </div>
+                    </button>
+            </li>
+       </ul>
+   </nav>
+     </div>
      <div class="tab-pane container mt-5 fade " id="issue">Issues</div>
      <div class="tab-pane container mt-5 fade" id="marketplace">marketplace</div>
      <div class="tab-pane container mt-5 fade" id="explore">Explore</div>
