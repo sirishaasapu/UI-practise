@@ -22,11 +22,39 @@
 
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script> -->
+
+    <style>
+       
+      /* headlines with lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+     color:lightgray;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 100vw;
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+    </style>
 </head>
 <body class="container">
-    <div class="row mt-5">
-        <div class="col-3">
-        <div id="demo" style="width:300; height:500" class="carousel slide" data-ride="carousel">
+    <div class="row mt-5 mx-5">
+        <div class="col-4">
+        <div id="demo" style="width:350; height:600" class="carousel slide" data-ride="carousel">
                 <ul class="carousel-indicators">
                   <li data-target="#demo" data-slide-to="0" class="active"></li>
                   <li data-target="#demo" data-slide-to="1"></li>
@@ -34,21 +62,21 @@
                 </ul>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="../images/pp.jpg" alt="Los Angeles" width="300" height="500">
+                    <img class="rounded" src="../images/pp.jpg" alt="Los Angeles" width="350" height="600">
                     <div class="carousel-caption">
                       <h3>Education</h3>
                       <p>“An investment in knowledge pays the best interest”</p>
                     </div>   
                   </div>
                   <div class="carousel-item">
-                    <img src="../images/images.jpg" alt="Chicago" width="300" height="500">
+                    <img class="rounded"  src="../images/images.jpg" alt="Chicago" width="350" height="600">
                     <div class="carousel-caption">
                       <h3>Education</h3>
                       <p>“The highest result of education is tolerance”</p>
                     </div>   
                   </div>
                   <div class="carousel-item">
-                    <img src="../images/pp.jpg" alt="New York" width="300" height="500">
+                    <img class="rounded" src="../images/pp.jpg" alt="New York" width="350" height="600">
                     <div class="carousel-caption">
                       <h3>Education</h3>
                       <p>A Good education is a foundation for a better future</p>
@@ -63,6 +91,63 @@
                 </a>
               </div>
             </div>
+            <div class="col-5 mx-5">
+                   <div  class="card px-5 pt-4 form-group ml-3">
+                       <h3 style="font-family: cursive;" class="text-center">Instagram</h3>
+                       <br/>
+                       <div class="input-group">
+                        <input class="form-control" type="email" placeholder="phone number,username or email" />
+                    </div>
+                    <br/>
+                    <div class="input-group">
+                        <input class="form-control" type="password" placeholder="password" />
+                        </div>
+                        <br/>
+                        
+                        <button class="btn btn-info">Login</button>
+                        <br/>
+                        <p class="decorated"><span>or</span></p>
+                        <br/>
+                        <div class="text-center" >
+                            <a href="#" style="color:rgb(11, 59, 114)"><i class="fa fa-facebook-official mr-2" aria-hidden="true"></i>Log in with Facebook</a>
+                            <p><a style="color:rgb(11, 59, 114)" href="#">forget password?</a></p>
+                        </div>
+                  
+                   </div> 
+                   <div class="card p-2 ml-3 text-center">
+                    <p class="mt-2">Don't have an account? <a href="#">Sign up</a></p>
+                    </div>
+                    <p class="text-center mt-3">Get the App</p>
+                    <div class="d-flex mx-5 text-center justify-content-between">
+                        <img src="../images/appstore.png" width="150px" height="40px">
+                        <img class="ml-3" src="../images/googleplay.png" width="150px" height="40px">
+                    </div>
             </div>
+         
+            </div>
+            <div>
+            <footer class="mx-5 mt-5 text-center">
+                    <ul list-style-type="none" class="d-flex nav nav-justified text-dark">
+                        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Blog</a></li>
+                     <li class="nav-item"> <a href="#" class="nav-link">Jobs</a></li>
+                      <li class="nav-item"> <a href="#" class="nav-link">Help</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">API</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Privacy</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Terms</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Top Accounts</a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link">Hashtags</a></li>
+                    <li class="nav-item"> <a href="#" class="nav-link">Locations</a></li>
+                     <li class="nav-item">  <a href="#" class="nav-link">Beauty</a></li>
+                     <li class="nav-item">  <a href="#" class="nav-link">Dance & Performance</a></li>
+                      <li class="nav-item">   <a href="#" class="nav-link">Fitness</a></li>
+                     <li class="nav-item">  <a href="#" class="nav-link">Food & Drink</a></li>
+                       <li class="nav-item"> <a href="#" class="nav-link">Home & Garden</a></li>
+                       <li class="nav-item"><a href="#" class="nav-link">Music</a></li>
+                        <li class="nav-item"> <a href="#" class="nav-link">Visual Arts</a></li>
+                    </ul>
+                </div>
+                </footer>
+
 </body>
 </html>
