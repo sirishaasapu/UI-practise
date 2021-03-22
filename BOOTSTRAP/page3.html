@@ -29,14 +29,14 @@
                   </button>
                   <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav p-2" style="font-size:20px">
-       <li class="nav-item"><a class="nav-link text-light" href="#idcard">Home</a></li>
+       <li class="nav-item"><a class="nav-link text-light" href="#">Home</a></li>
        <li class="nav-item"><a class="nav-link text-light" href="#idcard">About</a></li>
        <li class="nav-item"><a class="nav-link text-light" href="#idcard">Id card</a></li>
        <li class="nav-item"><a class="nav-link text-light" href="#resume">Resume</a></li>
     </ul>
     </div>
     </header>
-    <div class="container mt-5">
+    <div class="container my-5">
     <div class="row">
        <div id="idcard" class="col-3 card p-3 text-center mr-3 h-100" >
                  <img width="50%" height="70%" class="rounded d-block mx-auto" src="../images/pp.jpg">
@@ -48,8 +48,39 @@
                     <h6><b>Designation :</b>Student</h6>
                     <h6><b>Phone: </b>9182576733</h6>
                 </div>
-                    <button class="btn btn-primary mt-3" data-toggle="collapse" data-target="#demo">see profile</button>
-            
+                    <button class="btn btn-primary mt-3"  data-toggle="modal" data-target="#myModal" data-toggle="collapse" data-target="#demo">see profile</button>
+                     <!-- Button to Open the Modal -->
+      
+      <!-- The Modal -->
+      <div class="modal" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">Sirisha Asapu</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                   <address>
+                        <cite>
+                            Amalapuram,
+                            pin-533221,
+                            Andhra pradesh
+                        </cite>
+                   </address>
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
                  </div>
 
        </div>
@@ -98,7 +129,7 @@
             
         </ul>
        </div>
-    </div>
+    <!-- </div>
     <div class="jumbotron alert alert-dismissible fade show">
         <button type="button" class="close" data-dismiss="alert">&times;</button>
     <span class="spinner-border text-primary spinner-border-sm"></span> bootstrap jumbotron class
@@ -114,6 +145,6 @@
             </ul>
 
         </div>
-    </div>
+    </div> -->
 </body>
 </html>
