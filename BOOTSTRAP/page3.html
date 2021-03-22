@@ -14,32 +14,81 @@
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js"></script> -->
 </head>
 <body>
-    <header class="bg-dark text-light p-2">
-       <h3> Id card</h3>
+    <header class="bg-dark text-light">
+        <ul class="nav p-2" style="font-size:20px">
+       <li class="nav-item"><a class="nav-link text-light" href="#idcard">Id card</a></li>
+       <li class="nav-item"><a class="nav-link text-light" href="#resume">Resume</a></li>
+    </ul>
     </header>
     <div class="container mt-5">
     <div class="row">
-       <div class="col-3 card p-3">
-                 <img   class="rounded card-img-top d-block mx-auto" src="../images/pp.jpg">
+       <div id="idcard" class="col-3 card p-3 text-center mr-3 h-100" >
+                 <img width="50%" height="70%" class="rounded d-block mx-auto" src="../images/pp.jpg">
                  <div class="card-body">
                     <h6><b>Name: </b> Sirisha Asapu</h6> 
                     <h6><b>Reg No: </b> 166P1A0505</h6> 
                     <h6><b>Blood group: </b>B +ve</h6> 
-                    <div class="mt-3">
-                    <button class="btn btn-primary ">see profile</button>
+                    <div id="demo" class="collapse">
+                    <h6><b>Designation :</b>Student</h6>
+                    <h6><b>Phone: </b>9182576733</h6>
                 </div>
+                    <button class="btn btn-primary mt-3" data-toggle="collapse" data-target="#demo">see profile</button>
+            
                  </div>
 
        </div>
-       <div class="col-9 p-3">
-        
-
+       <div id="resume" class="col-8 p-3 border">
+        <img width="100px" height="100px" class="float-right mt-1 rounded" src="../images/pp.jpg" />
+        <h5 style="color:rgb(5, 89, 199);font-size:25px" class="font-weight-bolder">Durga sai sirisha Asapu</h5>
+        <h6>computer science engineering</h6>
+        <h6>Prasiddha College of Engineering and Technology, Anathavaram</h6>
+        <h6><i class="fa fa-envelope-o mr-2" aria-hidden="true"></i>asapusirisha@gmail.com<span class="border-left mx-2"></span><i class="fa fa-phone" aria-hidden="true"></i>+91-9182575153</h6>
+        <hr/>
+        <h4 class="bg-light p-2">Career Objective</h4>
+        <p>
+                Seeking a productive position to utilize my skills and upgrade them through continuous learning in a challenging environment that helps me to contribute efficiently for the growth of the organization while being resourceful and innovative  
+        </p>
+        <hr/>
+        <h4 class="bg-light p-2">Academics</h4>
+        <table class="table-sm table-hover table-borderless">
+            <tbody>
+                <tr>
+                    <td>B. Tech (CSE)</td>
+                    <td>Prasiddha College of Engineering and Technology ,Anathavaram</td>
+                    <td>8.00/10</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                  <td> Intermediate (M.P.C)</td>
+                  <td> Aditya Junior College, Amalapuram</td>
+                  <td>9.30/10</td>
+                  <td>2016</td>
+                </tr>
+                <tr>
+                    <td>X Class (SSC)</td>
+                    <td>SSR ZP High School, Bheemanapalli</td>
+                    <td>9.20/10</td>
+                    <td>2014</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr/>
+        <h4 class="bg-light p-2">Technical Skills</h4>
+        <ul>
+            <li><b>Programming language: </b> Basics of c,Java, JavaScript</li>
+            <li><b>web technologies: </b>   Html,Css,Bootstrap,Angular</li>
+            <li><b>code Editor:</b>Visual studio code</li>
+            <li><b>version control: </b>Git hub</li>
+            
+        </ul>
        </div>
     </div>
     <div class="jumbotron alert alert-dismissible fade show">
